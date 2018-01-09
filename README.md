@@ -9,6 +9,49 @@ Self-Driving Car Engineer Nanodegree Program
 Autonomous steering and throttle control using a PID controller written in C++.
 This project uses the Udacity Self-Driving car simulator. 
 
+## PID Controller 
+
+# Parameters
+
+The general form of the PID model is:
+
+**PID_output = -Kp x Error - Kd x differential_error - Ki x integral_error**
+where:
+Kp, Kd and Ki are model parameter values to be derived empirically or through optimisation.
+
+
+The P, I, D components of the PID algorithm have the following effect:
+
+**P** -> Proportional. Represents the effect of the current error. If the error is large, the PID controller outputs a large value with opposite sign. 
+
+**I** -> Integral. Represents the sum of all previous errors. If the PID output does not sufficiently correct for the errors at each time interval, a large error accumulates and the PID controller outputs a large corrective value.
+
+**D** -> Differential. Takes into account the current rate of change of the error. The lower the rate of change in error, the less correction is needed from the PID controller (lower PID output). Thus the PID controller anticipates based on the current trend in the error how much correction is necessary, avoiding overshooting the target value. 
+
+
+# Parameter values used:
+The values for Kp, Kd and Ki were chosen manually in the following way:
+
+The steering PID controller parameter values were selected using constant throttle.
+Initial value of 0.3 was used for Kp. Ki and Kd were set to zero. A Kp value of 0.2 was providing better results and the vehicle was able to make the first turn. 
+Then further experimentation proceeded with values for Kd (holding Ki = 0). Once suitable results were obtained by driving around the track, a value for Ki was selected (again through experimenting with different values).
+
+Once the steering PID controller was tuned, the constant throttle was replaced by the throttle PID controller which was tuned manually in the same way as the steering PID.
+
+**Final values selected:** 
+
+**PID controller for steering:**
+* Kp value: 0.2
+* Kd value: 1.5
+* Ki value: 0.003
+
+**PID controller for throttle:**
+* Kp value: 0.7
+* Kd value: 0.5
+* Ki value: 0.0
+
+
+
 ## Dependencies
 
 * cmake >= 3.5

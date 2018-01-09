@@ -1,4 +1,4 @@
-# Install script for directory: /home/kz/Documents/Study/CarND_Udacity/Term2/CarND-PID-Control-Project
+# Install script for directory: /home/kz/Documents/Study/CarND_Udacity/Term2/CarND-Term2-P4
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/kz/Documents/Study/CarND_Udacity/Term2/CarND-PID-Control-Project/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/kz/Documents/Study/CarND_Udacity/Term2/CarND-Term2-P4/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

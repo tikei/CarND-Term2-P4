@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/kz/Documents/Study/CarND_Udacity/Term2/CarND-PID-Control-Project/src/PID.cpp
+/home/kz/Documents/Study/CarND_Udacity/Term2/CarND-Term2-P4/src/PID.cpp
 PID.h
-/home/kz/Documents/Study/CarND_Udacity/Term2/CarND-PID-Control-Project/src/PID.h
+/home/kz/Documents/Study/CarND_Udacity/Term2/CarND-Term2-P4/src/PID.h
 
-/home/kz/Documents/Study/CarND_Udacity/Term2/CarND-PID-Control-Project/src/PID.h
+/home/kz/Documents/Study/CarND_Udacity/Term2/CarND-Term2-P4/src/PID.h
 
-/home/kz/Documents/Study/CarND_Udacity/Term2/CarND-PID-Control-Project/src/json.hpp
+/home/kz/Documents/Study/CarND_Udacity/Term2/CarND-Term2-P4/src/json.hpp
 algorithm
 -
 array
@@ -68,15 +68,15 @@ utility
 vector
 -
 
-/home/kz/Documents/Study/CarND_Udacity/Term2/CarND-PID-Control-Project/src/main.cpp
+/home/kz/Documents/Study/CarND_Udacity/Term2/CarND-Term2-P4/src/main.cpp
 uWS/uWS.h
 -
 iostream
 -
 json.hpp
-/home/kz/Documents/Study/CarND_Udacity/Term2/CarND-PID-Control-Project/src/json.hpp
+/home/kz/Documents/Study/CarND_Udacity/Term2/CarND-Term2-P4/src/json.hpp
 PID.h
-/home/kz/Documents/Study/CarND_Udacity/Term2/CarND-PID-Control-Project/src/PID.h
+/home/kz/Documents/Study/CarND_Udacity/Term2/CarND-Term2-P4/src/PID.h
 math.h
 -
 

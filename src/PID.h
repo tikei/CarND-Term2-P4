@@ -43,11 +43,6 @@ public:
   void UpdateError(double cte);
 
   /*
-  * Calculate the total PID error.
-  */
-  double TotalError();
-
-  /*
   * Calculate steering angle (in Radians) from PID controller
   */
   double GetSteering(double cte);
