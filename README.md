@@ -11,12 +11,14 @@ This project uses the Udacity Self-Driving car simulator.
 
 ## PID Controller 
 
-# Parameters
+### Parameters
 
 The general form of the PID model is:
 
 **PID_output = -Kp x Error - Kd x differential_error - Ki x integral_error**
+
 where:
+
 Kp, Kd and Ki are model parameter values to be derived empirically or through optimisation.
 
 
@@ -29,7 +31,7 @@ The P, I, D components of the PID algorithm have the following effect:
 **D** -> Differential. Takes into account the current rate of change of the error. The lower the rate of change in error, the less correction is needed from the PID controller (lower PID output). Thus the PID controller anticipates based on the current trend in the error how much correction is necessary, avoiding overshooting the target value. 
 
 
-# Parameter values used:
+### Parameter values used:
 The values for Kp, Kd and Ki were chosen manually in the following way:
 
 The steering PID controller parameter values were selected using constant throttle.
