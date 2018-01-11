@@ -9,6 +9,11 @@ Self-Driving Car Engineer Nanodegree Program
 Autonomous steering and throttle control using a PID controller written in C++.
 This project uses the Udacity Self-Driving car simulator. 
 
+#### Demo: Autonomous driving using separate PID controllers for steering and throttle: (click on link to see the full video)
+
+[Demo video](https://youtu.be/YRHhxYMSgfM)
+
+
 ## PID Controller 
 
 ### Parameters
